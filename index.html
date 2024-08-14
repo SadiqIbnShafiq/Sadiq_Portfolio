@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadiq Portfolio</title>
+    <link rel="shortcut icon" href="./favicon.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Sadiq <span>Shafiq</span></h1>
+            </div>
+            <ul class="nav-links">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page 1: Introduction -->
+    <section id="intro" class="page">
+        <div class="left">
+            <h1>Hi, It's <span>Sadiq</span></h1>
+            <h2>I'm a <span>Web Developer</span></h2>
+            <p>As a dedicated web developer, I specialize in crafting seamless, visually stunning websites using HTML,
+                CSS, and JavaScript. My expertise extends to Tailwind CSS, allowing for highly responsive and
+                customizable designs, while GSAP ensures dynamic and smooth animations that captivate users.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mr-sadiq-68804b289/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </a>
+                <a href="https://github.com/SadiqIbnShafiq/SadiqIbnShafiq-ReadMe" target="_blank"><i class='bx bxl-github'></i></a>
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="./home image.avif" alt="Sadiq" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- Page 2: Services -->
+    <section id="services" class="page">
+        <div id="heading">
+            <h1>Services</h1>
+        </div>
+        <div class="center-box">
+            <h2>Website Developer</h2>
+            <p>I specialize in creating visually appealing and user-friendly websites using the latest web technologies. With expertise in HTML, CSS, and JavaScript, I build clean and responsive designs that look great on any device. I also use Tailwind CSS for efficient styling and GSAP for smooth animations, ensuring that your website not only looks stunning but also offers an engaging experience for your visitors. Let’s collaborate to bring your vision to life with precision and creativity.</p>
+        </div>
+    </section>
+
+    <!-- Page 3: Contact -->
+    <section id="contact" class="page">
+        <div class="center-box">
+            <h2>Contact <span>Me</span></h2>
+            <form id="contact-form" action="send_email.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="number" name="" placeholder="Number">
+                <textarea name="message" placeholder="Your Message" equired></textarea>
+                <div id="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div id="text-parent">
+        <ul class="footer-links">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="para">
+            <p> &copy;  Sadiq Shafiq | All Rights Reserved</p>
+        </div>
+    </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
